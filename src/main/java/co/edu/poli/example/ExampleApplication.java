@@ -8,6 +8,8 @@ import io.github.cdimascio.dotenv.Dotenv;
 @SpringBootApplication
 public class ExampleApplication {
 
+	//Samuel Arce
+	
 	public static void main(String[] args) {	
 		Dotenv dotenv = Dotenv.configure().load();
         System.setProperty("DB_USER_SUPABASE", dotenv.get("DB_USER_SUPABASE"));
